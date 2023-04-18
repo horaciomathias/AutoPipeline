@@ -16,7 +16,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: ./Obligatorio/AutoPipeline
+        working-directory: ./AutoPipeline
             
     name: build-${{matrix.os}}
     runs-on: ${{ matrix.os }}
